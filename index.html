@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Yorman Oña</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+      <!-- #Barra de navegacion -->
+      <aside class="sidebar" data-sidebar>
+  
+        <div class="sidebar-info">
+  
+          <figure class="avatar-box">
+            <img src="./assets/images/ImagaYo.jpeg" alt="Yorman Oña" width="80">
+          </figure>
+          
+          <div class="info-content">
+            <h1 class="name" title="Yorman Oña">Yorman Oña</h1>
+  
+            <p class="title">Estudiante de Ingenieria de Sotware</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Mostrar contactos</span>
+  
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+  
+        </div>
+  
+        <div class="sidebar-info_more">
+  
+          <div class="separator"></div>
+  
+          <ul class="contacts-list">
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+  
+                <a href="yjona@espe.edu.ec" class="contact-link">yjona@espe.edu.ec</a>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Telelfono</p>
+  
+                <a href="#" class="contact-link">0998427872</a>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Cumpleaños</p>
+  
+                <time datetime="2003-06-16">16 de Junio del 2003</time>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Ubicacion</p>
+  
+                <address>Ecuador - Quito - Amaguaña</address>
+              </div>
+  
+            </li>
+  
+          </ul>
+  
+          <div class="separator"></div>
+  
+          <ul class="social-list">
+  
+            <li class="social-item">
+              <a href="https://github.com/YormanOna" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="https://twitter.com/?lang=es" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="https://www.instagram.com/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+  
+        </div>
+        
+  
+      </aside>
+
+  
+      <!-- #Contenido principal-->
+      <div class="main-content">
+  
+        <!-- #Navbar -->
+  
+        <nav class="navbar">
+  
+          <ul class="navbar-list">
+  
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>Acerca</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resumen</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Proyectos</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contacto</button>
+            </li>
+  
+          </ul>
+  
+        </nav>
+  
+        <!-- #Acerca de Mi -->
+  
+        <article class="about  active" data-page="acerca">
+  
+          <header>
+            <h2 class="h2 article-title">Sobre mi</h2>
+          </header>
+  
+          <section class="about-text">
+            <p>
+              ¡Hola! Soy un estudiante de la ciudad de Quito, Ecuador, y me apasiona la programación. 
+              Disfruto resolviendo problemas difíciles y haciéndolos ver simples. 
+            </p>
+  
+            <p>
+              Aunque todavía estoy estudiando, me encanta aprender y aplicar mis conocimientos 
+              en cualquier proyecto que surja. Siempre estoy buscando nuevas formas de expandir 
+              mis habilidades y conocimientos.
+            </p>
+          </section>
+  
+  
+          <!-- service -->
+  
+          <section class="service">
+  
+            <h3 class="h3 service-title">Habilidades Tecnicas</h3>
+  
+            <ul class="service-list">
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
+                  " alt="design icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Diseño web</h4>
+  
+                  <p class="service-item-text">
+                    Poseo habilidades competentes en el diseño de aplicaciones web, tanto en el frontend como en el backend
+                  </p>
+                </div>
+  
+              </li>
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Desarrollo de Software</h4>
+  
+                  <p class="service-item-text">
+                    Tengo habilidades sólidas en codificación y desarrollo de software, con la capacidad de adaptarme eficientemente a cualquier lenguaje según sea necesario.
+                  </p>
+                </div>
+  
+              </li>
+            </ul>
+  
+          </section>
+  
+          <!-- clients -->
+  
+          <section class="clients">
+  
+            <h3 class="h3 clients-title">Clientes</h3>
+  
+            <ul class="clients-list has-scrollbar">
+  
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/logo.png" alt="client logo">
+                </a>
+                <p class="subtitulo">Bananas Cocktails</p>
+              </li>
+  
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/COMUNICAKATE_LOGO.png" alt="client logo">
+                </a>
+                <p class="subtitulo">Comunikate Ecuador</p>
+              </li>
+  
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/ESPE_LOGO.png" alt="client logo">
+                </a>
+                <p class="subtitulo">ESPE</p>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/SECCOP_LOGO.png" alt="client logo">
+                </a>
+                <p class="subtitulo">SECCOP</p>
+              </li>
+            </ul>
+  
+          </section>
+  
+        </article>
+  
+        <!-- #Resumen -->
+  
+        <article class="resume" data-page="resumen">
+  
+          <header>
+            <h2 class="h2 article-title">Resumen</h2>
+          </header>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Educacion</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Universidad de las Fuerzas Armadas - ESPE</h4>
+  
+                <span>2021 — Presente</span>
+  
+                <p class="timeline-text">
+                  Ingenieria en Software
+                </p>
+  
+              </li>
+  
+            </ol>
+  
+          </section>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Experiencia</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <p class="timeline-text">Aunque actualmente no cuento con experiencia laboral formal, he dedicado 
+                mi tiempo a participar en diversos proyectos de menor escala. </p>
+                <p class="timeline-text">Estos proyectos, aunque pequeños, han sido una invaluable oportunidad para 
+                  desarrollar habilidades prácticas y adquirir 
+                  experiencia en el ámbito laboral.</p>
+                  <p class="timeline-text">Estoy ansioso por aplicar y expandir estos conocimientos en roles profesionales futuros.</p>
+
+            </ol>
+  
+          </section>
+          <h3 class="h3" style="text-align: center;">Habilidades</h3>
+          <div class="gallery">
+            <div class="logo"><img src="./assets/images/CSS_LOGO.png" alt="Logo 1"></div>
+            <div class="logo"><img src="./assets/images/C_LOGO.png" alt="Logo 2"></div>
+            <div class="logo"><img src="./assets/images/C__LOGO.png" alt="Logo 3"></div>
+            <div class="logo"><img src="./assets/images/HTML_LOGO.png" alt="Logo 4"></div>
+            <div class="logo"><img src="./assets/images/JS_LOGO.png" alt="Logo 5"></div>
+            <div class="logo"><img src="./assets/images/REACT_LOGO.png" alt="Logo 6"></div>
+            <div class="logo"><img src="./assets/images/PYTHON_LOGO.png" alt="Logo 7"></div>
+            <div class="logo"><img src="./assets/images/ASTRO_LOGO.png" alt="Logo 8"></div>
+          </div>
+  
+  
+        </article>
+  
+  
+        <!-- #Mis proyectos -->
+  
+        <article class="portfolio" data-page="proyectos">
+  
+          <header>
+            <h2 class="h2 article-title">Proyectos</h2>
+          </header>
+  
+          <section class="projects">
+  
+            <ul class="filter-list">
+  
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Diseño web</button>
+              </li>
+
+  
+            </ul>
+  
+            <div class="filter-select-box">
+  
+              <button class="filter-select" data-select>
+  
+                <div class="select-value" data-selecct-value>Selecciona la categoria</div>
+  
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+  
+              </button>
+  
+              <ul class="select-list">
+  
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Diseño web</button>
+                </li>
+  
+              </ul>
+  
+            </div>
+  
+            <ul class="project-list">
+  
+              <li class="project-item  active" data-filter-item data-category="diseño web">
+                <a href="https://github.com/YormanOna/PROYECTOS.git">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/proyecto_bananas.png" alt="fundo" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Bananas Cocktails</h3>
+  
+                  <p class="project-category">Pagina web</p>
+  
+                </a>
+              </li>
+  
+            </ul>
+  
+          </section>
+  
+        </article>
+  
+        <!-- #Contacto -->
+  
+        <article class="contact" data-page="contacto">
+  
+          <header>
+            <h2 class="h2 article-title">Contactos</h2>
+          </header>
+  
+          <section class="contact-form">
+  
+            <h3 class="h3 form-title">Contactame</h3>
+  
+            <form action="#" class="form" data-form>
+  
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Nombre Completo" required data-form-input>
+  
+                <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+              </div>
+  
+              <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input></textarea>
+  
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Enviar mensaje</span>
+              </button>
+  
+            </form>
+  
+          </section>
+  
+        </article>
+  
+      </div>
+  
+    </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
